@@ -70,31 +70,35 @@ public class GameActivity extends AppCompatActivity {
 
     private void cargarPreguntas() {
         preguntas = new ArrayList<>();
+
         preguntas.add(new Question(
                 "¿Cuál es el río más largo del mundo?",
                 new String[]{"Nilo", "Amazonas", "Yangtsé", "Misisipi"},
                 1));
+
         preguntas.add(new Question(
-                "¿En qué año se termino la Guerra Fria?",
+                "¿En qué año se terminó la Guerra Fría?",
                 new String[]{"1991", "1969", "1972", "1962"},
-                1));
+                0));
         preguntas.add(new Question(
-                "¿Cuantos mundiales tiene Brasil?",
+                "¿Cuántos mundiales tiene Brasil?",
                 new String[]{"3", "2", "6", "5"},
-                4));
+                3));
+
         preguntas.add(new Question(
                 "¿Cuál es el actual DT de Argentina?",
                 new String[]{"Scaloni", "Ancelotti", "Sampaoli", "Luis Enrique"},
-                1));
+                0));
+
         preguntas.add(new Question(
-                "¿Donde será el Mundial en 2026?",
-                new String[]{"EE.UU", "Nigéria", "Alemania", "Paises Bajos"},
-                1));
+                "¿Dónde será el Mundial en 2026?",
+                new String[]{"EE.UU", "Nigeria", "Alemania", "Países Bajos"},
+                0));
+
         preguntas.add(new Question(
                 "¿Cuál es el actual campeón del mundial?",
                 new String[]{"Brasil", "Portugal", "Argentina", "Alemania"},
-                3));
-
+                2));
     }
 
     private void mostrarPregunta() {
